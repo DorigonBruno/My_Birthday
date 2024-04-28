@@ -14,33 +14,35 @@
 <body>
   <div class="bg">
     <div class="conteudo">
-      <h1 class="conteudo__title">Confirme Presença no meu Aniversário</h1>
+      <h1 class="conteudo__title" id="title">Confirme Presença no meu Aniversário</h1>
       <div class="conteudo__soon">
         <div class="conteudo__soon__container">
           <h2 class="conteudo__soon__container__title">Dias</h2>
-          <span class="conteudo__soon__container__numbers">01 :</span>
+          <span class="conteudo__soon__container__numbers" id="days">00 :</span>
         </div>
         <div class="conteudo__soon__container">
           <h2 class="conteudo__soon__container__title">Horas</h2>
-          <span class="conteudo__soon__container__numbers">01 :</span>
+          <span class="conteudo__soon__container__numbers" id="hours">00 :</span>
         </div>
         <div class="conteudo__soon__container">
           <h2 class="conteudo__soon__container__title">Minutos</h2>
-          <span class="conteudo__soon__container__numbers">01 :</span>
+          <span class="conteudo__soon__container__numbers" id="minutes">00 :</span>
         </div>
         <div class="conteudo__soon__container">
           <h2 class="conteudo__soon__container__title">Segundos</h2>
-          <span class="conteudo__soon__container__numbers">01</span>
+          <span class="conteudo__soon__container__numbers" id="seconds">00</span>
         </div>
       </div>
       <form class="conteudo__form">
         <h3 class="conteudo__form__title">Se inscreva para confirmar presença!!!</h3>
         <div class="conteudo__form__container">
-          <input class="conteudo__form__container__input" type="text" placeholder="seu email">
+          <input class="conteudo__form__container__input" type="text" placeholder="seu email" required>
           <button class="conteudo__form__container__button" type="submit">Se Inscreva</button>
         </div>
       </form>
     </div>
   </div>
+
+  <script src="./scripts/main.js"></script>
 </body>
 </html>
